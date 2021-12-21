@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="9dp"
+    android:elevation="10dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="1dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/new1"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/orderid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="0dp"
+            android:text="ID : "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/oid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/orderid"
+            android:text="78524596"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/t0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/orderid"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center_vertical"
+            android:text="User :"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/orderid"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@id/t0"
+            android:gravity="center_vertical"
+            android:text="Gautam"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="4dp"
+            android:text="Service: "
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t1"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@id/t2"
+            android:text="CHAT"
+            android:textColor="#736AFF"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/service"
+            android:textColor="@color/white"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="4dp"
+            android:text="Ratings : "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/rate"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/date"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/service"
+            android:layout_marginLeft="7dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="4dp"
+            android:text="4"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/rate"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/service"
+            android:layout_marginLeft="7dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="4dp"
+            android:text="/ 5"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="4dp"
+            android:text="Example review"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="User Details"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t"
+        android:layout_marginTop="20dp"
+        android:text="Name : "
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/nameu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/t1"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t1"
+        android:layout_marginTop="10dp"
+        android:text="Gender : "
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/genderu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t1"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/t2"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t2"
+        android:layout_marginTop="10dp"
+        android:text="DOB : "
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/dobu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t2"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/t3"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t3"
+        android:layout_marginTop="10dp"
+        android:text="TOB : "
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/tobu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t3"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/t4"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t4"
+        android:layout_marginTop="10dp"
+        android:text="POB : "
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/pobu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t4"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/t5"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/settings"
+    android:padding="15dp"
+    android:background="@color/white"
+    tools:context=".SettingsFragment"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/mobileno"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Phone Number"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:background="@drawable/box"
+        android:backgroundTint="#51e5f4"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/termsandconditions"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terms &#38; Conditions"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:background="@drawable/box"
+        android:backgroundTint="#51e5f4"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/form16a"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download Form 16A"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:background="@drawable/box"
+        android:backgroundTint="#51e5f4"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:backgroundTint="#51e5f4"
+        android:layout_marginBottom="252dp"
+        android:text="Logout"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+         />
+
+</LinearLayout>

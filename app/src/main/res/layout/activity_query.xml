@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".query">
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/astro"
+        android:hint="Type your query here ..."
+        android:padding="10dp"
+        android:background="@color/smokeWhite"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:ellipsize="end"
+        android:maxLines="100"
+        android:singleLine="false"
+        android:lines="8"/>
+
+
+    <TextView
+        android:layout_below="@id/astro"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/adamina"
+        android:layout_marginRight="20dp"
+        android:id="@+id/admin"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:ellipsize="end"
+        android:textSize="18dp"
+        android:maxLines="100"
+        android:singleLine="false"
+        android:lines="8"/>
+
+
+    <Button
+        android:id="@+id/submitq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="18dp"
+        android:textSize="20dp"
+        android:backgroundTint="@color/new2"
+        android:textColor="@color/black"
+        android:text="SUBMIT QUERY" />
+
+
+
+
+</RelativeLayout>

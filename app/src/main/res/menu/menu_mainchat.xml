@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/info"
+        android:icon="@drawable/info12"
+        app:showAsAction="ifRoom"
+        android:title="Compose">
+    </item>
+    <item
+        android:id="@+id/chathis1"
+        android:icon="@drawable/ic_baseline_history_24"
+        app:showAsAction="ifRoom"
+        android:title="Compose1">
+    </item>
+
+</menu>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="7dp"
+    android:elevation="5dp"
+    android:layout_marginTop="1dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:elevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:gravity="center_vertical"
+            android:text="Recieved from Rahul"
+            android:textColor="#000"
+            android:textSize="15dp"
+            />
+
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/date1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_below="@+id/name1"
+            android:text="Service"
+            android:textSize="13dp" />
+
+
+        <TextView
+            android:id="@+id/wallet1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/adamina"
+            android:text="+ Rs.0"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/adamina"
+            android:text="- Rs.0"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/paymentGateway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="34dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/adamina"
+            android:text="- Rs.0"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/adamina"
+            android:layout_toLeftOf="@id/wallet1"
+            android:text="Total"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/adamina"
+            android:layout_toLeftOf="@id/tds"
+            android:text="Tds"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/adamina"
+            android:layout_toLeftOf="@id/paymentGateway"
+            android:text="Gateway"
+            android:textSize="15dp" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

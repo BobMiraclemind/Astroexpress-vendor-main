@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    app:cardCornerRadius="7dp"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginVertical="5dp"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Offer Name : "
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@id/name"
+            android:gravity="center_vertical"
+            android:text="This is Header Text"
+            android:textColor="#0000ff"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/offers_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textOff="OFF"
+            android:textOn="ON"
+            android:textStyle="bold"
+            app:showText="true"
+            app:thumbTint="@drawable/switch_thumb_selector"
+            app:trackTint="@drawable/switch_track_selector" />
+
+        <TextView
+            android:id="@+id/dname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:text="Display Name : "
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@id/dname"
+            android:text="This is Description Text"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dname"
+            android:text="User Type : "
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t2"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@id/type"
+            android:text="This is Description Text"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/india"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/type"
+            android:layout_marginTop="6dp"
+            android:text="India: My Share:"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t3"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/india"
+            android:text="₹ "
+            android:textColor="#61B329"
+            android:textSize="12dp" />
+
+
+        <TextView
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t3"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/t4"
+            android:text=" | AT Share:"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t3"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/share"
+            android:text="₹ "
+            android:textColor="#61B329"
+            android:textSize="12dp" />
+
+
+        <TextView
+            android:id="@+id/pays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t3"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/t5"
+            android:text=" | Customer Pays:"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t3"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/pays"
+            android:text="₹ "
+            android:textColor="#61B329"
+            android:textSize="12dp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
